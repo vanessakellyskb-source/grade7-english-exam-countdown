@@ -9,7 +9,7 @@ from PIL import Image, ImageDraw, ImageFont
 TOKEN = os.environ["BOT_TOKEN"]
 CHAT_ID = os.environ["CHAT_ID"]
 API = f"https://api.telegram.org/bot{TOKEN}/"
-TARGET = datetime(2026, 11, 26, tzinfo=timezone(timedelta(hours=4)))
+TARGET = datetime(2026, 11, 26, 5, 0, tzinfo=timezone(timedelta(hours=4)))
 FONT = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 
 
