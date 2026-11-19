@@ -2,7 +2,8 @@
 name: Grade 7 English Exam Countdown
 
 on:
- 
+  schedule:
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 jobs:
