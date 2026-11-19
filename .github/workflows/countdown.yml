@@ -1,12 +1,11 @@
 
 name: Grade 7 English Exam Countdown
-
 on:
   schedule:
     - cron: '7,22,37,52 * * * *'
   workflow_dispatch:
-
 jobs:
+
   countdown:
     runs-on: ubuntu-latest
     timeout-minutes: 4
